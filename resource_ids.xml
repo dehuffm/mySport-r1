@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Fishing" android:id="@+id/fishing"/>
+    <item android:title="Golfing" android:id="@+id/golfing"/>
+    <item android:title="Archery" android:id="@+id/archery"/>
+    <item android:title="Trail-riding" android:id="@+id/trailriding"/>
+    <item android:title="Running" android:id="@+id/running"/>
+    <item android:title="Rock-climbing" android:id="@+id/rockclimbing"/>
+</menu>

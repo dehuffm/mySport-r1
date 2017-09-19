@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:title="My Sports" android:id="@+id/group_sports" android:checkableBehavior="single" android:orderInCategory="001">
+        <item
+            android:id="@+id/kayaking"
+            android:icon="@drawable/kayak_24"
+            android:title="Kayaking" />
+        <item
+            android:id="@+id/skiing"
+            android:icon="@drawable/skiing_24"
+            android:title="Skiing" />
+        <item
+            android:id="@+id/hiking"
+            android:icon="@drawable/hiking_24"
+            android:title="Hiking" />
+        <item
+            android:id="@+id/biking"
+            android:icon="@drawable/cycling_road_24"
+            android:title="Biking" />
+    </group>
+
+    <item android:title="Share mySport" android:orderInCategory="101">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/twitter_box"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram" />
+        </menu>
+    </item>
+
+    <item android:title="Manage mySport" android:orderInCategory="201">
+        <menu>
+            <item
+                android:id="@+id/manage_pics"
+                android:icon="@drawable/image_multiple"
+                android:title="Manage my pictures" />
+            <item
+                android:id="@+id/manage_sports"
+                android:icon="@drawable/admin_sports_24"
+                android:title="Manage my sports" />
+        </menu>
+    </item>
+</menu>

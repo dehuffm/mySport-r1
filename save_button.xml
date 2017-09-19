@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#00cc00"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/save_24"/>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#009900"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/save_24"/>
+            </item>
+        </layer-list>
+    </item>
+</selector>

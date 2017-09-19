@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:layout_marginBottom="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:padding="5dp">
+<LinearLayout
+android:id="@+id/activity_manage_sports"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Restrict sports to selection"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<Button
+    android:id="@+id/findSelected"
+    android:layout_alignParentBottom="true"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:background="@drawable/save_button"
+    android:gravity="center_vertical|center_horizontal"
+    android:enabled="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginBottom="5dp"/>
+<Button
+    android:id="@+id/trip_cancel"
+    android:layout_alignParentBottom="true"
+    android:layout_toRightOf="@id/findSelected"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:background="@drawable/cancel_button"
+    android:gravity="center_vertical|center_horizontal"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:enabled="true"/>
+</RelativeLayout>
+</LinearLayout>
